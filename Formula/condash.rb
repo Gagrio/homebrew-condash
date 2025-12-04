@@ -6,7 +6,7 @@ class Condash < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Gagrio/condash/releases/download/v0.1.0/condash-macos-aarch64"
+      url "https://github.com/Gagrio/condash/releases/download/v0.2.0/condash-macos-aarch64"
       sha256 "e3a9652f5040225a8bc1891b6a4baa6e4ea5f00e2d2ad9ed007a7422162aed4b"
     end
   end
